@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+#fundo---site--todo {
+  background-color: rgb(214, 204, 184);
+  height: 1000vh;
+}
+
+/* navbar */
+
+.menu--bar {
+  width: 100%;
+  width: 100%;
+  background-color: rgb(187, 143, 106);
+  margin: 0 auto;
+
+  border-bottom-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+
+  box-shadow: -0.5px 30px 30px rgba(7, 3, 0, 0.247);
+}
+
+.nav--h1 {
+  text-align: center;
+  font-size: 60px;
+
+  padding-top: 5%;
+  color: #fff;
+}
+
+.nav--span {
+  font-weight: bold;
+}
+.nav-h1-2 {
+  font-weight: 200;
+}
+.menu--itens {
+  display: flex;
+  gap: 23px;
+  margin-left: 29%;
+  margin-top: 4%;
+  position: relative;
+  bottom: 15px;
+  font-size: 15px;
+
+  color: #fff;
+}
+
+.icon:hover {
+  color: rgba(41, 27, 16, 0.808);
+  cursor: pointer;
+  font-size: 18px;
+  border: 0;
+  margin-bottom: 0;
+  font-weight: bolder;
+  transition: 0.6s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* contedo principal */
+.conteudo--principal-h1 {
+  position: relative;
+  top: 250px;
+  font-size: 50px !important;
+  z-index: 1;
+}
+
+.contedo--principal-p {
+  position: relative;
+  top: 300px;
+  font-size: 30px !important;
+}
+
+.dropdown-toggle {
+  width: 350px;
+
+  position: relative;
+  top: 330px;
+
+  border-radius: 50px !important;
+
+  font-size: 20px !important;
+
+  margin-bottom: 25px;
+
+  background-color: rgb(255, 255, 255) !important;
+  border: rgb(255, 255, 255) !important;
+
+  color: #000 !important;
+}
+
+.next {
+  position: relative;
+  top: 330px;
+
+  background-color: rgb(187, 143, 106) !important;
+  border: rgb(187, 143, 106) !important;
+
+  width: 150px;
+
+  border-radius: 50px !important;
+
+  font-size: 20px !important;
+}
+
+.contedo--principal-h4 {
+  position: relative;
+  top: 350px;
+  text-decoration: underline;
+}
+
+.conteudo--principal-p2 {
+  position: relative;
+  top: 380px;
+}
+.now {
+  font-weight: bolder;
+  text-transform: uppercase;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 15px;
+  color: rgb(187, 143, 106);
+
+  box-shadow: 10px 1px 40px rgba(0, 0, 0, 0.288);
+}
+.imagem--lateral {
+  width: 500px;
+  float: right;
+  position: relative;
+  top: -350px;
+  left: -350px;
+
+  background-color: rgb(187, 143, 106) !important;
+  border-radius: 50px;
+}
+
+.iconss {
+  position: absolute;
+  left: -440px;
+  top: 397px;
+  border-radius: 200px;
+}
+
+/* Quadro branco */
+
+.quadro--branco--lateral {
+  float: right;
+  position: relative;
+  left: 500px;
+  top: -200px;
+  background-color: rgb(255, 255, 255);
+  width: 30%;
+  padding-left: 100px;
+  height: 60vh;
+
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+
+  box-shadow: -20px 1px 40px rgba(0, 0, 0, 0.24);
+}
+
+.ssj4 {
+  background-color: rgb(187, 143, 106) !important;
+  border: rgb(187, 143, 106) !important;
+}
+.quadro--branco-p {
+  position: relative;
+  margin-top: 30px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.shopping--side-1,
+.shopping--side-2 {
+  width: 180px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.shopping--side-p1 {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+/* Item 2 */
+.item2 {
+  position: relative;
+  top: 500px;
+  background-color: #fff;
+  height: 750px;
+
+  border-radius: 50px;
+
+  box-shadow: -0.5px 30px 30px rgba(7, 3, 0, 0.247);
+}
+
+.item2--h3-1,
+.item2--h1,
+.item2--lorem,
+.item2--h3-2,
+.f22 {
+  position: relative;
+}
+
+.item2--h1 {
+  bottom: -50px !important;
+    left: 50px;
+  font-size: 60px;
+}
+
+.item2--h3-1 {
+  bottom: -50px !important;
+  left: 50px;
+}
+
+.item2--lorem {
+  bottom: -50px !important;
+  left: 50px;
+}
+
+.f22 {
+  bottom: -50px !important;
+  background-color: rgb(187, 143, 106) !important;
+  border: rgb(187, 143, 106) !important;
+  padding: 50px;
+  width: 150px;
+  height: 50px;
+
+  left: 50px;
+
+  border-radius: 100px !important;
+}
+.item2--h3-2 {
+  bottom: 720px;
+  left: 50px;
+}
+.item2--img {
+  width: 40%;
+  position: relative;
+  right: -765px;
+  margin: 0;
+  padding: 0;
+
+  bottom: 572px;
+
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+
+
+
+
+/* ITEM 3 */
+
+
+.item3 {
+    background-color: #000;
+}
