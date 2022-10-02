@@ -59,19 +59,6 @@
   transition: 0.6s;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* contedo principal */
 .conteudo--principal-h1 {
   position: relative;
@@ -92,7 +79,7 @@
   position: relative;
   top: 330px;
 
-  border-radius: 50px !important;
+  border-radius: 10px !important;
 
   font-size: 20px !important;
 
@@ -113,7 +100,7 @@
 
   width: 150px;
 
-  border-radius: 50px !important;
+  border-radius: 10px !important;
 
   font-size: 20px !important;
 }
@@ -197,14 +184,6 @@
   text-decoration: underline;
 }
 
-
-
-
-
-
-
-
-
 /* Item 2 */
 .item2 {
   position: relative;
@@ -227,7 +206,7 @@
 
 .item2--h1 {
   bottom: -50px !important;
-    left: 50px;
+  left: 50px;
   font-size: 60px;
 }
 
@@ -254,7 +233,14 @@
   margin-top: 20px;
   margin-left: 20px;
 
-  border-radius: 100px !important;
+  border-radius: 10px !important;
+}
+
+.f22:hover {
+  background-color: rgb(150, 113, 83) !important;
+  color: rgb(255, 254, 254) !important;
+  transition:  ease-in 0.2s;
+
 }
 .item2--h3-2 {
   bottom: 650px;
@@ -273,19 +259,84 @@
   border-top-right-radius: 50px;
 }
 
-
-
-
-
 /* ITEM 3 */
 
-
 .item3 {
-    background-color: #000;
-    position: relative;
-    top: 700px;
+  border-radius: 100px;
+
+
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  margin-top: 600px;
+
+
+  height: 90vh;
 }
 
 .item3--img {
-  width: 150px;
+  width: 555px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  position: relative;
+
+  filter:brightness(0.4);
+
+  margin-left: -12px;
+}
+
+
+.center--t {
+  position: relative;
+  margin-top: -500px;
+  color: #fff !important;
+}
+
+
+
+.item3--h1 {
+  position: relative;
+  top: -170px;
+  
+  background-color: rgb(187, 143, 106) !important;
+  border: rgb(187, 143, 106) !important;
+
+  padding: 10px;
+
+  width: 420px;
+
+  margin-left: 50px;
+
+  border-radius: 5px;
+}
+
+.center--ls {
+  position: relative;
+  margin-left: 50px;
+  margin-top: -50px;
+}
+
+.item3--h1-2 {
+  font-size: 70px;
+}
+
+.ff35 {
+  position: relative;
+    
+  background-color: rgb(187, 143, 106) !important;
+  border: rgb(187, 143, 106) !important;
+
+  position: relative;
+  top: 70px;
+  margin-left: 50px;
+
+  width: 200px;
+  height: 50px;
+
+}
+
+.ff35:hover {
+  background-color: #fff !important;
+  color: rgb(187, 143, 106) !important;
+  transition:  ease-in 0.2s;
+
 }
