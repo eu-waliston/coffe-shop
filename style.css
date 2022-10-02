@@ -162,11 +162,11 @@
   float: right;
   position: relative;
   left: 500px;
-  top: -200px;
+  margin-top: -250px;
   background-color: rgb(255, 255, 255);
   width: 30%;
   padding-left: 100px;
-  height: 60vh;
+  height: 70vh;
 
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
@@ -249,22 +249,25 @@
   width: 150px;
   height: 50px;
 
-  left: 50px;
+  left: 30px;
+
+  margin-top: 20px;
+  margin-left: 20px;
 
   border-radius: 100px !important;
 }
 .item2--h3-2 {
-  bottom: 720px;
+  bottom: 650px;
   left: 50px;
 }
 .item2--img {
   width: 40%;
   position: relative;
-  right: -765px;
+  right: -761px;
   margin: 0;
   padding: 0;
 
-  bottom: 572px;
+  bottom: 482px;
 
   border-bottom-right-radius: 50px;
   border-top-right-radius: 50px;
@@ -279,4 +282,10 @@
 
 .item3 {
     background-color: #000;
+    position: relative;
+    top: 700px;
+}
+
+.item3--img {
+  width: 150px;
 }
