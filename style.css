@@ -265,7 +265,7 @@
   border-radius: 100px;
 
 
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(187, 143, 78);
   position: relative;
   margin-top: 600px;
 
@@ -338,5 +338,28 @@
   background-color: #fff !important;
   color: rgb(187, 143, 106) !important;
   transition:  ease-in 0.2s;
+
+}
+
+.item3--lateral {
+  position: relative;
+  left: -180px;
+  top: -250px;
+
+  height: 70vh;
+
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+
+  
+}
+
+.p-item-3 {
+  position: relative;
+  font-size: 25px;
+}
+
+.item3-p-w {
+  text-decoration: none !important;
 
 }
