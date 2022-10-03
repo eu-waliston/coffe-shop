@@ -159,6 +159,8 @@
   border-bottom-left-radius: 50px;
 
   box-shadow: -20px 1px 40px rgba(0, 0, 0, 0.24);
+
+  top: -60px;
 }
 
 .ssj4 {
@@ -253,7 +255,7 @@
   margin: 0;
   padding: 0;
 
-  bottom: 482px;
+  bottom: 505px;
 
   border-bottom-right-radius: 50px;
   border-top-right-radius: 50px;
@@ -265,12 +267,14 @@
   border-radius: 100px;
 
 
-  background-color: rgb(187, 143, 78);
+  background-color: rgb(187, 143, 106);
   position: relative;
   margin-top: 600px;
 
 
-  height: 90vh;
+  height: 77.5vh;
+
+  box-shadow: 5px 1px 40px rgba(0, 0, 0, 0.24);
 }
 
 .item3--img {
@@ -287,7 +291,7 @@
 
 .center--t {
   position: relative;
-  margin-top: -500px;
+  margin-top: -535px;
   color: #fff !important;
 }
 
@@ -363,3 +367,74 @@
   text-decoration: none !important;
 
 }
+
+/* ITEM 4 */
+
+.item4 {
+  background-color: rgb(187, 143, 106);
+  position: relative;
+  height: 70vh;
+  top: 150px;
+
+  box-shadow: 5px 5px  25px rgba(0, 0, 0, 0.226);
+
+  border-radius: 100px ;
+
+  color: #fff !important;
+}
+
+.item4-h1 {
+  position: relative;
+  margin-left: 410px;
+  top: 50px;
+  font-size: 80px;
+}
+
+.item4-span {
+  font-weight: lighter;
+}
+
+.item4-h3 {
+  position: relative;
+  margin-left: 370px;
+  top: 50px;
+}
+
+.item4-btn {
+  position: relative;
+  margin-left: 410px;
+  top: 200px;
+  width: 400px;
+  height: 80px;
+
+  background-color: #fff !important;
+  border: 2px solid white !important;
+
+  color: rgb(187, 143, 106) !important;
+  
+  font-size: 20px !important;
+  font-weight: bold !important;
+}
+
+.item4-btn:hover {
+  background-color: rgb(172, 114, 68) !important;
+  border:none!important;
+
+  color: #fff !important;
+
+  transition: ease-in-out 0.8s !important;
+}
+
+.cofffee-time-img {
+  width: 447px;
+  position: relative;
+  float: right;
+  top: -225px;
+  left: 12px;
+
+  opacity: 0.2;
+
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
