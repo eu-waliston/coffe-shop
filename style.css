@@ -456,7 +456,7 @@
   border-top-right-radius: 100px;
   border-bottom-right-radius: 100px;
 
-  top: -300px;
+  top: -343px;
 
   opacity: 0.9;
 }
@@ -474,10 +474,12 @@
 
 .item5-p-1 {
   position: relative;
-  top: 220px;
-  margin-left: 278px;
+  top: 150px;
+  margin-left: 180px;
 
   color:  rgba(187, 142, 106, 0.685) !important;
+
+  font-size: 30px;
 }
 
 .item5-btn {
@@ -502,7 +504,7 @@
 
 .item5-h3 {
   position: relative;
-  top: 290px;
+  top: 280px;
   margin-left: 70px;
 
   color: rgb(187, 143, 106) !important;
