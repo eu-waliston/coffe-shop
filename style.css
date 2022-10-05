@@ -456,18 +456,27 @@
   border-top-right-radius: 100px;
   border-bottom-right-radius: 100px;
 
-  top: -335px;
+  top: -357px;
 
   opacity: 0.9;
 }
 
 
 
+.item5-btn {
+  position: relative;
+  top: 220px;
+  margin-left: 278px;
 
+  background-color:  rgb(187, 143, 106) !important;
+  height: 60px;
+  width: 180px;
+
+}
 
 .item5-h3 {
   position: relative;
-  top: 300px;
+  top: 290px;
   margin-left: 70px;
 
   color: rgb(187, 143, 106) !important;
@@ -479,17 +488,17 @@
 
 .item5-h4 {
   position: relative;
-  top: 380px;
+  top: 320px;
   margin-left: 120px;
   font-weight: 300;
-  color: rgb(187, 143, 106) !important;
+  color: rgb(170, 120, 79) !important;
 }
 
 .item5-last-lorem {
   position: relative;
-  top: 390px;
+  top: 350px;
   margin-left: 25px;
   text-indent: 18px;
 
-  color: rgb(187, 143, 106) !important;
+  color: rgb(189, 118, 61) !important;
 }
