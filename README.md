@@ -1,4 +1,3 @@
-# IN PROGRESS! 40% COMPLETE....
 
 ## Coffee Website
 
@@ -14,9 +13,8 @@ This project consists in an website about a unoficial coffee company that need m
 ### Future Features
 
 - Light/dark mode toggle
-- Responsive mode
-- Fullscreen mode
-- Cross platform
+- Responsive mode (in progress)
+
 - Back-and (it ill be probably Spring or)
 
 ## Feedback
