@@ -12,14 +12,8 @@ This project consists in an website about a unoficial coffee company that need m
 
 ### Future Features
 
-<<<<<<< HEAD
 - Light/dark mode toggle
 - Responsive mode (in progress)
-
-=======
-- Responsive mode (in progress )
-- Cross platform
->>>>>>> a350c30a094c749ac179abf67eb1d0c067620773
 - Back-and (it ill be probably Spring or)
 
 ## Feedback
