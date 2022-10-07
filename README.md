@@ -1,5 +1,5 @@
 
-## Coffee Website
+# Coffee Website
 
 This project consists in an website about a unoficial coffee company that need more clients, thinking abot it they would like to have an beautiful and cool website
 
@@ -12,9 +12,14 @@ This project consists in an website about a unoficial coffee company that need m
 
 ### Future Features
 
+<<<<<<< HEAD
 - Light/dark mode toggle
 - Responsive mode (in progress)
 
+=======
+- Responsive mode (in progress )
+- Cross platform
+>>>>>>> a350c30a094c749ac179abf67eb1d0c067620773
 - Back-and (it ill be probably Spring or)
 
 ## Feedback
