@@ -1,6 +1,5 @@
-# IN PROGRESS! 40% COMPLETE....
 
-## Coffee Website
+# Coffee Website
 
 This project consists in an website about a unoficial coffee company that need more clients, thinking abot it they would like to have an beautiful and cool website
 
@@ -13,9 +12,7 @@ This project consists in an website about a unoficial coffee company that need m
 
 ### Future Features
 
-- Light/dark mode toggle
-- Responsive mode
-- Fullscreen mode
+- Responsive mode (in progress )
 - Cross platform
 - Back-and (it ill be probably Spring or)
 
