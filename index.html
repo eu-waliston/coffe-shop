@@ -1,255 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="assets/logo1.png" type="image/x-icon" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="shortcut icon" href="assets/logo1.png" type="image/x-icon"/>
     <title>Candy Shop</title>
     <!--CSS-->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
 
     <!-- CSS only -->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-      crossorigin="anonymous"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+            crossorigin="anonymous"
     />
-  </head>
 
-  <body>
-    <div id="fundo---site--todo">
-      <div class="container">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+</head>
+
+<body>
+<div id="fundo---site--todo">
+
+    <div class="container">
         <div class="menu--bar">
-          <h1 class="nav--h1">
+            <h1 class="nav--h1 animate__animated animate__backInDown" >
             <span class="nav--span">Deli//</span
             ><span class="nav-h1-2">Break</span>
-          </h1>
+            </h1>
 
-          <div class="menu--itens">
-            <p class="icon" href="#">Beverages</p>
-            <p class="icon" href="#">Dessets</p>
-            <p class="icon" href="#">Promotions</p>
-            <p class="icon" href="#">Star Program</p>
-            <p class="icon" href="#">Branches</p>
-            <p class="icon" href="#">Contact</p>
-          </div>
+            <div class="menu--itens">
+                <p class="icon" href="#">Beverages</p>
+                <p class="icon" href="#">Dessets</p>
+                <p class="icon" href="#">Promotions</p>
+                <p class="icon" href="#">Star Program</p>
+                <p class="icon" href="#">Branches</p>
+                <p class="icon" href="#">Contact</p>
+            </div>
         </div>
 
         <div class="conteudo--principal container">
-          <!--ITEM 1-->
+            <!--ITEM 1-->
 
-          <h1 class="conteudo--principal-h1">
-            Place your order <span class="now">now!</span>
-          </h1>
-          <p class="contedo--principal-p">
-            Free shipping on purchases <br />
-            of $15 or more
-          </p>
-
-          <div class="dropdown">
-            <a
-              class="btn btn-secondary dropdown-toggle"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Shake
-            </a>
-          </div>
-
-          <div class="dropdown">
-            <a
-              class="btn btn-secondary dropdown-toggle"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Extra toppings
-            </a>
-          </div>
-
-          <button class="btn btn-primary next">Next</button>
-
-          <h4 class="contedo--principal-h4">
-            Know our promotions <br />
-            Pastry courses
-          </h4>
-
-          <p class="conteudo--principal-p2">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br />
-            Earum voluptate alias magni aliquid quasi eius suscipit <br />
-            quibusdam vero explicabo tempora?
-          </p>
-          <div class="circle1"></div>
-          <img src="assets/IMG1.png" class="imagem--lateral" />
-          <div class="circle2"></div>
-
-          <div class="quadro--branco--lateral">
-            <p class="quadro--branco-p">
-              Acompany your drink <br />
-              with a deli dessert:
-            </p>
-
-            <img src="assets/shopSide1.jpg" class="shopping--side-1" />
-
-            <img src="assets/logo2.jpg" class="iconss" />
-
-            <p class="shopping--side-p1">Add to your cart</p>
-            <button class="btn btn-primary ssj4">-</button> 1
-            <button class="btn btn-primary ssj4">+</button>
-            <br />
-            <img src="assets/shopSide2.jpg" class="shopping--side-2" />
-            <p class="shopping--side-p1">Add to your cart</p>
-            <button class="btn btn-primary ssj4">-</button> 1
-            <button class="btn btn-primary ssj4">+</button>
-          </div>
-
-          <!--ITEM 2-->
-          <div class="container item2">
-            <h1 class="item2--h1">
-              Sign up for the <br />
-              Star Program
+            <h1 class="conteudo--principal-h1">
+                Place your order <span class="now">now!</span>
             </h1>
-            <h3 class="item2--h3-1">
-              Enjoy your favorite <br />
-              your favorite drinks
-            </h3>
-            <p class="item2--lorem">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero
-              quibusdam laudantium non dolorem officia possimus voluptates
-              laborum, dignissimos adipisci ab fuga doloribus similique veniam?
-              <br />
-              Vero quisquam totam commodi qui non?
+            <p class="contedo--principal-p">
+                Free shipping on purchases <br/>
+                of $15 or more
             </p>
 
-            <button class="btn btn-primary f22">Join</button>
-            <button class="btn btn-primary f22">Login</button>
+            <div class="dropdown">
+                <a
+                        class="btn btn-secondary dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                >
+                    Shake
+                </a>
+            </div>
 
-            <img src="assets/IMG1.jpg" alt="fundo" class="item2--img" />
+            <div class="dropdown">
+                <a
+                        class="btn btn-secondary dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                >
+                    Extra toppings
+                </a>
+            </div>
 
-            <h3 class="item2--h3-2">
-              Your birthday drink <br />
-              Exclusive offers <br />
-              Select customer card
-            </h3>
-          </div>
+            <button class="btn btn-primary next">Next</button>
 
-          <!--ITEM 3-->
-          <div class="container item3">
-            <img src="assets/IMG--F1.jpg" alt="brtd" class="item3--img" />
+            <h4 class="contedo--principal-h4">
+                Know our promotions <br/>
+                Pastry courses
+            </h4>
 
-            <div class="center--t">
-              <h1 class="item3--h1">Free birthday drink</h1>
+            <p class="conteudo--principal-p2">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br/>
+                Earum voluptate alias magni aliquid quasi eius suscipit <br/>
+                quibusdam vero explicabo tempora?
+            </p>
+            <div class="circle1"></div>
+            <img src="assets/IMG1.png" class="imagem--lateral"/>
+            <div class="circle2"></div>
 
-              <div class="center--ls">
-                <p class="item3--p">How does it work?</p>
-                <h1 class="item3--h1-2">
-                  Enjoy your <br />
-                  Favorite Shake!
+            <div class="quadro--branco--lateral">
+                <p class="quadro--branco-p">
+                    Acompany your drink <br/>
+                    with a deli dessert:
+                </p>
+
+                <img src="assets/shopSide1.jpg" class="shopping--side-1"/>
+
+                <img src="assets/logo2.jpg" class="iconss"/>
+
+                <p class="shopping--side-p1">Add to your cart</p>
+                <button class="btn btn-primary ssj4">-</button>
+                1
+                <button class="btn btn-primary ssj4">+</button>
+                <br/>
+                <img src="assets/shopSide2.jpg" class="shopping--side-2"/>
+                <p class="shopping--side-p1">Add to your cart</p>
+                <button class="btn btn-primary ssj4">-</button>
+                1
+                <button class="btn btn-primary ssj4">+</button>
+            </div>
+
+            <!--ITEM 2-->
+            <div class="container item2"  data-aos="fade-up"
+                 data-aos-duration="3000">
+                <h1 class="item2--h1">
+                    Sign up for the <br/>
+                    Star Program
                 </h1>
-                <h4 class="item3--h4">Chocolate cake wiht cream late</h4>
-              </div>
+                <h3 class="item2--h3-1">
+                    Enjoy your favorite <br/>
+                    your favorite drinks
+                </h3>
+                <p class="item2--lorem">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero
+                    quibusdam laudantium non dolorem officia possimus voluptates
+                    laborum, dignissimos adipisci ab fuga doloribus similique veniam?
+                    <br/>
+                    Vero quisquam totam commodi qui non?
+                </p>
 
-              <button class="btn btn-primary ff35">Buy Now</button>
+                <button class="btn btn-primary f22">Join</button>
+                <button class="btn btn-primary f22">Login</button>
+
+                <img src="assets/IMG1.jpg" alt="fundo" class="item2--img"/>
+
+                <h3 class="item2--h3-2">
+                    Your birthday drink <br/>
+                    Exclusive offers <br/>
+                    Select customer card
+                </h3>
             </div>
 
-            <div class="quadro--branco--lateral item3--lateral">
-              <p class="quadro--branco-p">
-                Acompany your drink <br />
-                with a deli dessert:
-              </p>
+            <!--ITEM 3-->
+            <div class="container item3" data-aos="fade-up"
+                 data-aos-duration="3000">
+                <img src="assets/IMG--F1.jpg" alt="brtd" class="item3--img"/>
 
-              <img src="assets/shopSide1.jpg" class="shopping--side-1" />
+                <div class="center--t">
+                    <h1 class="item3--h1">Free birthday drink</h1>
 
-              <p class="shopping--side-p1 item3-p-w">Add to your cart</p>
-              <button class="btn btn-primary ssj4">-</button> 1
-              <button class="btn btn-primary ssj4">+</button>
-              <br />
-              <img src="assets/shopSide2.jpg" class="shopping--side-2" />
-              <p class="shopping--side-p1 item3-p-w">Add to your cart</p>
-              <button class="btn btn-primary ssj4">-</button> 1
-              <button class="btn btn-primary ssj4">+</button>
-            </div>
-          </div>
+                    <div class="center--ls">
+                        <p class="item3--p">How does it work?</p>
+                        <h1 class="item3--h1-2">
+                            Enjoy your <br/>
+                            Favorite Shake!
+                        </h1>
+                        <h4 class="item3--h4">Chocolate cake wiht cream late</h4>
+                    </div>
 
-          <!--ITEM 4-->
-          <div class="container item4">
-            <h1 class="item4-h1">
-              Deli//<span class="item4-span">Break</span>
-            </h1>
+                    <button class="btn btn-primary ff35">Buy Now</button>
+                </div>
 
-            <h3 class="item4-h3">Enjoy the benefits of the star program</h3>
-            <button class="btn btn-secundary item4-btn">Sign up now</button>
+                <div class="quadro--branco--lateral item3--lateral">
+                    <p class="quadro--branco-p">
+                        Acompany your drink <br/>
+                        with a deli dessert:
+                    </p>
 
-            <img src="assets/break--time.jpg" class="cofffee-time-img" />
-          </div>
+                    <img src="assets/shopSide1.jpg" class="shopping--side-1"/>
 
-          <!--ITEM 5-->
-          <div class="container item5">
-            <div id="ultimo--quadro">
-              <h1 class="item5-h1">Pastry and milkshake courses</h1>
-              <p class="item5-p-1">Groups of 10 people <br> Saturdays from 9 to 11 a.m</p>
-
-              <button class="btn btn-prmary item5-btn">Reserve your place</button>
-
-              <h3 class="item5-h3">$10 per classes of $70 for the online course. <br> Includes materials</h3>
-
-              <h4 class="item5-h4">More information here call<span class="phone--number"> (13) 12345-8894</span></h4>
-
-              <img src="assets/last-IMG.jpg"  class="item5--img">
-
-              <p class="item5-last-lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio, maiores sequi ullam blanditiis minima laborum explicabo, vitae eveniet praesentium voluptates recusandae provident illum dicta aspernatur! Alias provident id aspernatur quisquam!</p>
-            </div>
-          </div>
-
-          <!--RODAPÈ-->
-          <div class="container footer footer-final">
-              <h1 class="footer-h1">
-                Deli// <spa class="footer-span">Break</spa>
-              </h1>
-            <p class="footer-p">
-              Quality and taste // Guaranteed
-            </p>
-
-            <div class="icons">
-              <!--icones aqui-->
-            </div>
-            <div class="lista-de-items">
-              <li>Beverages</li>
-              <li>Dessets</li>
-              <li>Promotions</li>
-              <li>Star Program</li>
-              <li>Branches</li>
-              <li>Contact</li>
-              <li>Gallery</li>
-              <li>Blog</li>
-              <li>Start Program</li>
+                    <p class="shopping--side-p1 item3-p-w">Add to your cart</p>
+                    <button class="btn btn-primary ssj4">-</button>
+                    1
+                    <button class="btn btn-primary ssj4">+</button>
+                    <br/>
+                    <img src="assets/shopSide2.jpg" class="shopping--side-2"/>
+                    <p class="shopping--side-p1 item3-p-w">Add to your cart</p>
+                    <button class="btn btn-primary ssj4">-</button>
+                    1
+                    <button class="btn btn-primary ssj4">+</button>
+                </div>
             </div>
 
-            <h2 class="footer-h2-form">
-              Sign up for out newslatter:
-            </h2>
-            <div class="form">
-              <input type="text" name="" id="name" placeholder="Name">
-              <input type="text" name="" id="email" placeholder="E-mail">
+            <!--ITEM 4-->
+            <div class="container item4" data-aos="fade-up"
+                 data-aos-duration="3000">
+                <h1 class="item4-h1">
+                    Deli//<span class="item4-span">Break</span>
+                </h1>
 
-              <button type="submit">Sign up</button>
+                <h3 class="item4-h3">Enjoy the benefits of the star program</h3>
+                <button class="btn btn-secundary item4-btn">Sign up now</button>
+
+                <img src="assets/break--time.jpg" class="cofffee-time-img"/>
             </div>
 
-          </div>
+            <!--ITEM 5-->
+            <div class="container item5" data-aos="fade-up"
+                 data-aos-duration="3000">
+                <div id="ultimo--quadro">
+                    <h1 class="item5-h1">Pastry and milkshake courses</h1>
+                    <p class="item5-p-1">Groups of 10 people <br> Saturdays from 9 to 11 a.m</p>
+
+                    <button class="btn btn-prmary item5-btn">Reserve your place</button>
+
+                    <h3 class="item5-h3">$10 per classes of $70 for the online course. <br> Includes materials</h3>
+
+                    <h4 class="item5-h4">More information here call<span class="phone--number"> (13) 12345-8894</span>
+                    </h4>
+
+                    <img src="assets/last-IMG.jpg" class="item5--img">
+
+                    <p class="item5-last-lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio,
+                        maiores sequi ullam blanditiis minima laborum explicabo, vitae eveniet praesentium voluptates
+                        recusandae provident illum dicta aspernatur! Alias provident id aspernatur quisquam!</p>
+                </div>
+            </div>
+
         </div>
-      </div>
+
     </div>
 
-    <!-- JavaScript Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+</div>
+
+<!-- JavaScript Bundle with Popper -->
+<script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"
+></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
 </html>
